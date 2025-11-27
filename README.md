@@ -173,7 +173,14 @@ Toda a modelagem foi pensada para:
 
 3. **Configure as variáveis de ambiente**
 
-   Crie um arquivo `.env.local` na raiz do projeto:
+   Use o arquivo de exemplo como base:
+
+   Copie o arquivo `.env.example` para `.env.local`:
+
+   ```bash
+   cp .env.example .env.local
+   ```
+   Depois, edite o arquivo .env.local e preencha com os valores reais:
 
    ```env
    VITE_SUPABASE_URL=sua_url_do_supabase
@@ -195,7 +202,7 @@ Toda a modelagem foi pensada para:
    ```
 
    A aplicação ficará disponível em:
-   👉 [http://localhost:8080](http://localhost:8080)
+   [http://localhost:8080](http://localhost:8080)
 
 ---
 
