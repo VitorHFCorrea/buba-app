@@ -130,7 +130,7 @@ const ApprenticeLogin = () => {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="pin">PIN (8 caracteres)</Label>
+              <Label htmlFor="pin">PIN (4 caracteres)</Label>
               <Input
                 id="pin"
                 type="text"
