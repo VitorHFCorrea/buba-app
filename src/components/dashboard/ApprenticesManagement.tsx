@@ -230,7 +230,7 @@ const ApprenticesManagement = () => {
                   </div>
 
                   <div>
-                    <Label className="text-sm font-semibold">PIN (8 caracteres):</Label>
+                    <Label className="text-sm font-semibold">PIN (4 caracteres):</Label>
                     <div className="flex gap-2 items-center mt-1">
                       <code className="flex-1 p-2 bg-background rounded border font-mono text-lg tracking-wider">
                         {newCredentials.pin}
